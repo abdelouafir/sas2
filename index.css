@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 1.2px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.continer{
+    width: 80%;
+    height: 90%;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+.continer img{
+    height: 550px;
+}
+.formasion{
+    margin: auto;
+    width: 35%;
+    height: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+input{
+    padding: 3px;
+    border-radius: 5px;
+}
+.all{
+    width: 90%;
+}
+.VVV{
+    width: 17%;
+}
+.SSS{
+    width: 40%;
+}
+button{
+    display: block;
+    padding: 12px;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: none;
+    background-color: #21092f;
+    color: #ffffff96;
+
+}
+.azee{
+    display: inline-block;
+    margin-right:90px ;
+}
+.continer{
+    display: grid;
+    grid-template-columns: 295px 1fr;
+}
+input{
+    border: solid #00000013;
+    padding: 7px;
+    margin: 10px 0px;
+}
+.fini {
+    background-image: url(/images/bg-card-front.png);
+    width: 300px;
+    height: 150px;
+}
+.fini .cart {
+    color: white;
+     position: relative;
+     top: 80px;
+     left: 20px;
+     font-size: 20px;
+
+}
+.fini .name {
+     position: relative;
+     top: 100px;
+     font-size: 10px;
+     color: white;
+     letter-spacing: 1.5px;
+     left: 20px;
+
+}
+.fini .Date{
+    position: relative;
+    top: 100px;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 1.5px;
+    left: 230px;
+    bottom: 400px;
+}
+.fini{
+    position: relative;
+    bottom: 450px;
+    left: 90px;
+}
+.fnal{
+    background-image: url(/images/bg-card-back.png);
+    width: 300px;
+    height: 150px;
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+}
